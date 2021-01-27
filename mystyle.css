@@ -1,0 +1,157 @@
+@charset"UTF-8";
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.bg-slider{
+ width:100vw;
+ height:100vh;
+ background-position:center center;
+ background-size:cover;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+
+body{ 
+ color:#ffffff;
+ font-family:"Arial";
+ font-size:16px;
+ background-color:#990000;
+ text-align:center;
+}
+
+.box1{
+ padding-top:50px;
+ position:absolute;
+ left:0px;
+ 
+ height:100%;
+}
+.box1 h1{
+ margin-top:50px;
+ margin-left:20px;
+ font-size:45px;
+}
+a{
+ color:#990000;
+}
+a:hover{
+ color:#ffffff;
+}
+#menu li a{
+ margin:50px 50px 0px 50px;
+ display:block;
+ width:5px;
+ height:15px;
+ text-decoration:none;
+ font-family:"Arial";
+ font-size:30px;
+ text-shadow:4px 0px 6px #ffffff;
+}
+#menu li{
+ list-style:none;
+ display:inline;
+}
+
+#movie{
+ float:left;
+}
+
+#menu2 li{
+ list-style:none;
+ display:inline; 
+}
+#menu2 li a{
+ margin:10px;
+ color:#ffffff;
+ text-decoration:none;
+ font-family:"Arial";
+ font-size:20px;
+ float:right;
+}
+#tab1{
+ padding:1%;
+ margin:0% 15% 0% 15%;
+ background-image:url(Start.jpg);
+ background-repeat:no-repeat;
+ text-align:center;
+ widhth:834px;
+ height:278px;
+}
+#Edhison{
+ position:absolute;
+ top:45%;
+ right:8%;
+}
+#Lumiere{
+ position:absolute;
+ top:100%;
+ left:10%;
+}
+
+#tab2{
+ padding:1%;
+ margin:0% 15% 0% 15%;
+ background-image:url(Hollywood.jpg);
+ background-repeat:no-repeat;
+ text-align:center;
+ width:834px;
+ height:278px;
+}
+#Edhison2{
+ position:absolute;
+ top:100%;
+ right:5%;
+}
+#sun{
+ position:absolute;
+ top:150%;
+ right:0px;
+}
+#US{
+ position:absolute;
+ width:450px;
+ height:100%;
+ float:left;
+ margin-left:25%;
+ margin-top:50px;
+}
+#CL{
+ padding:0px 15px 15px 210px;
+}
+#CLJ{
+ position:absolute;
+ width:450px;
+ height:100%;
+ folat:left;
+ margin-left:25%;
+ margin-top:50px;
+}
+#CLJIMG{
+ padding:0px 15px 15px 210px;
+}
+#mainbody a{
+ color:#ffffff;
+}
+
+#tab3{
+ padding:1%;
+ margin:0% 15% 0% 15%;
+ background-image:url(First.jpg);
+ background-repeat:no-repeat;
+ text-align:center;
+ widhth:834px;
+ height:278px;
+}
+
+#cover{
+ background:#000;
+ opacity:0.5;
+}
+
+footer{
+ border-top:1px dotted #fff;
+ padding:10px 0px 10px 0px;
+}
